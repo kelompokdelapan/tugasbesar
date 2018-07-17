@@ -34,7 +34,7 @@
           </a>
         </li>
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
-          <a class="nav-link" href="<?php echo base_url(); ?>index.php">
+          <a class="nav-link" href="<?php echo base_url(); ?>index.php/transaksi">
             <i class="fa fa-fw fa-file"></i>
             <span class="nav-link-text">Transaksi</span>
           </a>

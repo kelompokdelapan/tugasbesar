@@ -266,50 +266,40 @@
                   <p class="item-intro text-muted"><?php echo "Rp " . number_format($kamar['harga_sewa'], 2, ',', '.'); ?></p>
                   <img class="img-fluid d-block mx-auto" src="<?php echo base_url(); ?>assets/frontend/img/portfolio/<?php echo $kamar['gambar_kamar']; ?>" alt="">
                   <p><?php echo $kamar['fasilitas']; ?></p>
-<h4 align="center">Data Reservasi Hotel</h4><br><br>
-          <?php 
-            echo form_open('tamu/create'); 
-            echo validation_errors();
-
-          ?>
-
-          <div class="form-group">
-            <label>Nama Tamu</label>
-            <input type="text" class="form-control" id="nama_tamu" name="nama_tamu" placeholder="nama_tamu">
-          </div>
-          <div class="form-group">
-            <label>Jenis Kelamin</label>
-            <input type="text" class="form-control" id="jenis_kelamin" name="jenis_kelamin" placeholder="jenis_kelamin">
-          </div>
-          <div class="form-group">
-            <label>Warga Negara</label>
-            <input type="text" class="form-control" id="warganegara" name="warganegara" placeholder="warganegara">
-          </div>
-          <div class="form-group">
-            <label>Alamat</label>
-            <input type="text" class="form-control" id="alamat" name="alamat" placeholder="alamat">
-          </div>
-          <div class="form-group">
-            <div class="form-group">
-            <label>Telepon</label>
-            <input type="text" class="form-control" id="telepon" name="telepon" placeholder="telepon">
-          </div>
-          <div class="form-group">
-            <label>tgl_cekin  <font color="red">*mm-dd-yy</font></label>
-            <input type="text" class="form-control" id="tgl_cekin" name="tgl_cekin" placeholder="tanggal">
-          </div>
-          <div class="form-group">
-            <label>tgl_cekout  <font color="red">*mm-dd-yy</font></label>
-            <input type="text" class="form-control" id="tgl_cekout" name="tgl_cekout" placeholder="tanggal">
-          </div>
-          <button type="submit" class="btn btn-info">Batal</button>
-          &nbsp;&nbsp;
-          <?php echo form_close(); ?>
-   
-                    
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="check-square"></i>
+                  <hr>
+                  <h4 class="text-left">Biodata Tamu</h4>
+                  <?php echo form_open('home/register'); ?>
+                  <input type="hidden" name="id_kamar" value="<?php echo $kamar['id_kamar']; ?>">
+                  <div class="from-group mb-3">
+                    <input type="text" name="nama_tamu" class="form-control" required="required" placeholder="Nama Lengkap">
+                  </div>
+                  <div class="from-group mb-3">
+                    <select name="jenis_kelamin" class="form-control" required="required">
+                      <option value="L" selected="selected">Laki-laki</option>
+                      <option value="P">Perempuan</option>
+                    </select>
+                  </div>
+                  <div class="from-group mb-3">
+                    <input type="text" name="warganegara" class="form-control" required="required" placeholder="Warganegara">
+                  </div>
+                  <div class="from-group mb-3">
+                    <textarea name="alamat" class="form-control" required="required" rows="5" placeholder="Alamat"></textarea>
+                  </div>
+                  <div class="from-group mb-3">
+                    <input type="text" name="telepon" class="form-control" required="required" placeholder="Telepon">
+                  </div>
+                  <h4 class="text-left">Reservasi</h4>
+                  <div class="from-group mb-3">
+                    <input type="date" name="tgl_cekin" class="form-control" required="required" placeholder="Tanggal Masuk">
+                  </div>
+                  <div class="from-group mb-3">
+                    <input type="date" name="tgl_cekout" class="form-control" required="required" placeholder="Tanggal Keluar">
+                  </div>
+                  <button class="btn btn-success mb-3" type="submit">
                     Kirim</button>
+                  <button class="btn btn-danger mb-3" data-dismiss="modal" type="button">
+                    Batal</button>
+                  <?php echo form_close(); ?>
                 </div>
               </div>
             </div>
