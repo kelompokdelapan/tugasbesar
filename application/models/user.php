@@ -21,7 +21,7 @@ class user extends CI_Model {
     	}else{
     		return false;
     	}
-    }
+    }   
   
      public function cekL($param)
     {
@@ -38,6 +38,7 @@ class user extends CI_Model {
                 'username' => $this->input->post('username'),
                 'password' => md5($this->input->post('password')),
                 'level' => 'user',
+                'level' => 'admin',
             );
         $this->db->insert('user', $data);
     }
