@@ -37,20 +37,29 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav text-uppercase ml-auto">
+<<<<<<< HEAD
             <?php if ($this->session->userdata('level') == 'admin') { ?> 
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#portfolio">Admin Panel</a>
             </li>
             <?php } ?>
+=======
+>>>>>>> 1dfd3aeb7a63d82c687477918f7a19224d0f5a59
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#portfolio">Kamar</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#about">Tentang</a>
             </li>
+<<<<<<< HEAD
             <!-- <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Lokasi</a>
             </li> -->
+=======
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Lokasi</a>
+            </li>
+>>>>>>> 1dfd3aeb7a63d82c687477918f7a19224d0f5a59
           </ul>
         </div>
       </div>
@@ -102,7 +111,11 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
+<<<<<<< HEAD
             <h2 class="section-heading text-uppercase">Tentang</h2>
+=======
+            <h2 class="section-heading text-uppercase">About</h2>
+>>>>>>> 1dfd3aeb7a63d82c687477918f7a19224d0f5a59
             <h3 class="section-subheading text-muted">Sejarah Hotel</h3>
           </div>
         </div>
@@ -115,11 +128,19 @@
                 </div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
+<<<<<<< HEAD
                     <h4>Sejarah Berdirinya</h4>
                     <h4 class="subheading">Hotel Trio Indah</h4>
                   </div>
                   <div class="timeline-body">
                     <p class="text-muted">Hotel Trio Indah berdiri sejak tahun 2009. Hotel ini didirikan oleh orang luar negeri yang singgah di Indonesia, di tahun itu.</p>
+=======
+                    <h4>2009-2011</h4>
+                    <h4 class="subheading">Our Humble Beginnings</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+>>>>>>> 1dfd3aeb7a63d82c687477918f7a19224d0f5a59
                   </div>
                 </div>
               </li>
@@ -129,10 +150,18 @@
                 </div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
+<<<<<<< HEAD
                     <h4>Lokasi</h4>
                   </div>
                   <div class="timeline-body">
                     <p class="text-muted">Lokasi bertempat di Jl.Bunga Indah Kota Semarang Indonesia</p>
+=======
+                    <h4>March 2011</h4>
+                    <h4 class="subheading">An Agency is Born</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+>>>>>>> 1dfd3aeb7a63d82c687477918f7a19224d0f5a59
                   </div>
                 </div>
               </li>
@@ -142,6 +171,7 @@
                 </div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
+<<<<<<< HEAD
                     <h4>Peraturan Tamu Hotel</h4>
                   </div>
                   <div class="timeline-body">
@@ -149,6 +179,13 @@
                     <br class="text-muted">1. Tidak boleh merokok di dalam kamar </br>
                     <br class="text-muted">2. Menjaga kebersihan</br>
                     <br class="text-muted">3. Tidak boleh membawa hewan peliharaan</br>
+=======
+                    <h4>December 2012</h4>
+                    <h4 class="subheading">Transition to Full Service</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+>>>>>>> 1dfd3aeb7a63d82c687477918f7a19224d0f5a59
                   </div>
                 </div>
               </li>
@@ -167,10 +204,18 @@
                 </div>
               </li>
               <li class="timeline-inverted">
+<<<<<<< HEAD
                 <a href="<?php echo base_url(); ?>index.php/login/logout" align="right">
                 <div class="timeline-image">
                  
                 </div></a>
+=======
+                <div class="timeline-image">
+                  <h4>Be Part
+                    <br>Of Our
+                    <br>Story!</h4>
+                </div>
+>>>>>>> 1dfd3aeb7a63d82c687477918f7a19224d0f5a59
               </li>
             </ul>
           </div>
@@ -187,7 +232,11 @@
     </section>
 
     <!-- Contact -->
+<<<<<<< HEAD
    <!--  <section id="contact">
+=======
+    <section id="contact">
+>>>>>>> 1dfd3aeb7a63d82c687477918f7a19224d0f5a59
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
@@ -221,7 +270,11 @@
                 </div>
                 <div class="clearfix"></div>
                 <div class="col-lg-12 text-center">
+<<<<<<< HEAD
                   <div id="success"></div> -->
+=======
+                  <div id="success"></div>
+>>>>>>> 1dfd3aeb7a63d82c687477918f7a19224d0f5a59
                 </div>
               </div>
             </form>

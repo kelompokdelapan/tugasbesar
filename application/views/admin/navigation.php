@@ -21,8 +21,12 @@
 <body class="fixed-nav sticky-footer bg-dark" id="page-top">
   <!-- Navigation-->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+<<<<<<< HEAD
     <a class="navbar-brand" href="#" >Administrator</a><a href="<?php echo base_url(); ?>index.php/" align="right">Menu utama</a>&nbsp;&nbsp;
     <a href="<?php echo base_url(); ?>index.php/login/logout" align="right">Logout</a>
+=======
+    <a class="navbar-brand" href="#">Administrator</a>
+>>>>>>> 1dfd3aeb7a63d82c687477918f7a19224d0f5a59
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -54,11 +58,19 @@
           </a>
         </li>
       </ul>
+<<<<<<< HEAD
      <!--  <ul class="navbar-nav ml-auto">
+=======
+      <ul class="navbar-nav ml-auto">
+>>>>>>> 1dfd3aeb7a63d82c687477918f7a19224d0f5a59
         <li class="nav-item">
           <a class="nav-link" data-toggle="modal" data-target="#exampleModal">
             <i class="fa fa-fw fa-sign-out"></i>Logout</a>
         </li>
+<<<<<<< HEAD
       </ul> -->
+=======
+      </ul>
+>>>>>>> 1dfd3aeb7a63d82c687477918f7a19224d0f5a59
     </div>
   </nav>
